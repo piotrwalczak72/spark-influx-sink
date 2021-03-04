@@ -26,6 +26,7 @@ Example metrics.properties snippet:
 
 - This takes a dependency on the Apache2-licensed `com.izettle.dropwizard-metrics-influxdb` library, which is an improved version of Dropwizard's upstream InfluxDb support, which exists only in the DropWizard Metrics 4.0 branch.
 - The package that this code lives in is `org.apache.spark.metrics.sink`, which is necessary because Spark makes its Sink interface package-private.
+- Build this package under Java 8
 
 License
 -------
